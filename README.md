@@ -3,7 +3,9 @@
 A [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) bar widget for connecting and disconnecting
 NetworkManager VPNs — OpenVPN, WireGuard, and anything else NetworkManager can dial — without leaving the bar.
 
-![Screenshot](screenshot.png)
+![Popout with per-profile toggles](screenshot.png)
+
+![Bar pill](docs/bar.png)
 
 ## Features
 
