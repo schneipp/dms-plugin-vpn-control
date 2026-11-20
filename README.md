@@ -1,6 +1,6 @@
 # VPN Control
 
-A [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) bar widget for connecting and disconnecting
+A [DuxModularlShell](https://github.com/duxlabs-dev/dux-shell) bar widget for connecting and disconnecting
 NetworkManager VPNs — OpenVPN, WireGuard, and anything else NetworkManager can dial — without leaving the bar.
 
 ![Popout with per-profile toggles](screenshot.png)
@@ -23,12 +23,12 @@ NetworkManager VPNs — OpenVPN, WireGuard, and anything else NetworkManager can
 ### Manually
 
 ```bash
-cd ~/.config/DankMaterialShell/plugins
+cd ~/.config/dms/plugins
 git clone https://github.com/schneipp/dms-plugin-vpn-control VpnControl
 ```
 
 Then in DMS Settings → Plugins, click "Scan for Plugins" and enable **VPN Control**. Add it to a bar section from
-Settings → DankBar.
+Settings → Bar Widgets.
 
 ### Via DMS CLI (once available in the registry)
 
@@ -54,7 +54,7 @@ dms plugins install vpnControl
 
 ## Requirements
 
-- DankMaterialShell ≥ 1.6.0 with the `dms` server running (it provides the network backend this plugin talks to)
+- DuxModularShell ≥ 1.6.0 with the `dms` server running (it provides the network backend this plugin talks to)
 - NetworkManager, with your VPNs configured as NM connections
 
 Add profiles in DMS Settings → Network → VPN, or from the shell:
